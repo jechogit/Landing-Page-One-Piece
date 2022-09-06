@@ -1,0 +1,87 @@
+body {
+  background-color: #1f2923;
+  font: roboto;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  margin: 15px;
+}
+#HeaderMenu {
+  flex-direction: row;
+}
+
+#logo {
+  width: 200px;
+  height: 100px;
+  color: #f9faf8;
+  font-size: 24px;
+}
+a {
+  color: #f9faf8;
+  font-size: 24px;
+  margin: 10px;
+}
+
+#part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  margin: 15px;
+}
+
+#left {
+  display: block;
+}
+
+#infoImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+#onePiece {
+  height: 200px;
+  width: 200px;
+  justify-content: space-around;
+}
+
+#OnepieceImg {
+  width: auto;
+  max-height: 100%;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.personaje img {
+  height: 150px;
+  width: 150px;
+}
+#parte3{
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+}
+#quote{
+  position: relative;
+  
+}
+
+#idauthor{
+  position: relative;
+}
+
+
