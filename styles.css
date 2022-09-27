@@ -1,21 +1,22 @@
 body {
+  display: flex;
   background-color: #1f2923;
   font: roboto;
   color: #f9faf8;
-  display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
-.header {
+#header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 100px;
   margin: 15px;
 }
-#HeaderMenu {
-  flex-direction: row;
+a {
+  color: #f9faf8;
+  font-size: 24px;
+  margin: 10px;
 }
 
 #logo {
@@ -24,64 +25,102 @@ body {
   color: #f9faf8;
   font-size: 24px;
 }
-a {
-  color: #f9faf8;
-  font-size: 24px;
-  margin: 10px;
-}
 
-#part1 {
-  display: flex;
+#hero{
+  display:flex;
   flex-direction: row;
   justify-content: space-around;
   height: 200px;
   margin: 15px;
+  color:#E5E7EB;
+  font-size:18px;
+}
+#heroTitle{
+  font-size:48px;
+  color: #f9faf8;
 }
 
-#left {
-  display: block;
-}
-
-#infoImage {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 20px;
+#signupHero{
+  border-radius: 0.5em;
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
 #onePiece {
   height: 200px;
   width: 200px;
   justify-content: space-around;
 }
-
 #OnepieceImg {
   width: auto;
   max-height: 100%;
 }
 
-#images {
+#information{
+  background-color: #f9f9f9;
+}
+#infoImage{
+  display: block;
+  color: #1f2937;
+  margin: 20px;
+  font-size: 38px;
+  text-align: center;
+}
+#images{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  color:#1f2923;
   flex-wrap: wrap;
-  margin: 15px;
+  justify-content: center; 
 }
 .personaje img {
-  height: 150px;
-  width: 150px;
-}
-#parte3{
   height: 200px;
   width: 200px;
-  margin: 15px;
 }
-#quote{
-  position: relative;
-  
+
+#quotation{
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color:#1f2937;
+  display:flex;
+}
+
+#quotationWrapper{
+  height: max-content;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #idauthor{
-  position: relative;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+  }
+
+#wraperSectionCallToAction{
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+#wrapperSmallCallToAction{
+  background-color: #3882F6;
+  color: #f9faf8;
+  width: 50%;
+  
+}
 
+#textCallToAction{
+  display:flex;
+  flex-direction: column;
+}
+
+#signUpCallToAction{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#footer{
+  text-align: center;
+}
