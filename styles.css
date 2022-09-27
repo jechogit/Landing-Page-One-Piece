@@ -4,6 +4,8 @@ body {
   font: roboto;
   color: #f9faf8;
   flex-direction: column;
+  margin: 0 auto;
+  width: 95%;
 }
 
 #header {
@@ -104,10 +106,15 @@ a {
 }
 
 #wrapperSmallCallToAction{
+  display: flex;
+  flex-direction: row;
   background-color: #3882F6;
   color: #f9faf8;
   width: 50%;
-  
+  padding: 20px 50px;
+  margin: 50px;
+  border-radius: 10px;
+  justify-content:space-around;
 }
 
 #textCallToAction{
@@ -116,11 +123,13 @@ a {
 }
 
 #signUpCallToAction{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.5em;
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
 
 #footer{
   text-align: center;
+  margin: 50px;
 }
